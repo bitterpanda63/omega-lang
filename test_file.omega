@@ -1,0 +1,6 @@
+var:int helO_world = 2;
+var:str test = `Hiya!gisjgoij248283278(!)`;
+
+out test;
+
+var:str test = `He`;

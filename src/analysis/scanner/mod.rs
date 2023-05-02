@@ -1,3 +1,4 @@
+/*
 use regex::Regex;
 use lazy_static::lazy_static;
 
@@ -15,7 +16,8 @@ fn regexes() {
         static ref Output:Regex = Regex::new("/out/g").unwrap();
     }
 }
-
+*/
+/*
 const TOKEN_TYPES = {
     identifier: 0,
     add_operator: 1,
@@ -27,6 +29,11 @@ struct Token {
     token_type: u16,
     index: u64
 }
+*/*/
+pub fn scanner(input: &str) {
+    println!("{}", input)
+}
+
 // Strings : /`([A-z]?|[A-z]+)`/g
 // Equality : /=/g
 // Variables : /var:(int|str|char)/g
